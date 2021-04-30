@@ -1,0 +1,155 @@
+
+
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body {
+	background-image: url("https://media.istockphoto.com/photos/blue-gradient-background-abstract-illustration-of-deep-water-picture-id483871416?k=6&m=483871416&s=170667a&w=0&h=b7gMxt_GvxRKB1OlTTB0_f7Y9NmS2Ir-4D8wbCP2PaA=");
+	background-size: 400% 400%;
+	box-sizing: border-box;
+	font-family:Helvetica;
+	padding: 0 120px 0 120px;
+}
+.title{
+	width:100%;height:60px;line-height:60px;text-align:center;font-size:3rem; color:white;
+}
+.content{
+	width: 100%;
+	/*140px 是title+filter 的总高度，这样就不会出现滚动条了*/
+    height: calc(100% - 140px);
+    margin: auto;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transform: scale(.9);
+}
+.container {
+	width: 200px;
+	height: 380px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	background-color: white;
+	letter-spacing: 1px;
+	font-weight: 300;
+	overflow: hidden;
+	border-radius: 10px;
+	border: solid 1px grey;
+	box-shadow: 7px 3px 1px grey;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	position:absolute;
+	   left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.rotate0{
+	transform: rotate(-10deg);
+}
+.rotate1{
+	transform: rotate(-7deg);
+}
+.rotate2{
+	transform: rotate(-4deg);
+}
+.rotate3{
+	transform: rotate(-1deg);
+}
+.rotate4{
+	transform: rotate(2deg);
+}
+.rotate5{
+	transform: rotate(5deg);
+}
+.rotate6{
+	transform: rotate(8deg);
+}
+.rotate7{
+	transform: rotate(11deg);
+}
+h1 {
+font-family: 'Zen Dots', cursive;
+	color: white;
+	margin-top: 15px;
+	margin-down: 15px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.container h2 {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.container h2 span {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.container h5 {
+	color: #070f66;
+}
+
+.container p {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.container img {
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+
+}
+
+.container .card-divPhoto {
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.filter {
+	color: white;
+	display: flex;
+	width: 100%;
+	height: 80px;
+	justify-content: start;
+	align-items: center;
+}
+
+.menu {
+font-family: 'Zen Dots', cursive;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 60px;
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+	line-height: 60px;
+	color: #000000;
+	margin-left: 40px;
+	cursor: pointer;
+
+}
+.top {
+  z-index: 150;
+}
+
+.bottom{
+  z-index: 50;
+}
+
